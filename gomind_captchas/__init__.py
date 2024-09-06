@@ -11,6 +11,7 @@ import os
 import pyautogui as py
 from dotenv import load_dotenv
 
+__all__ = ['wait_element', 'send_keys', 'click']
 
 load_dotenv()
 
