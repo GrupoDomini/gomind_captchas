@@ -12,11 +12,5 @@ setup(
     package_dir={'': 'src'},
     packages=["gomind_captchas", find_packages(where="src")],
     zip_safe=False,
-    install_requires=[
-        'selenium',
-        'Pillow',
-        'python-dotenv',
-        'anticaptchaofficial',
-        'pyautogui',
-    ],
+    install_requires=[],
 )
