@@ -1,14 +1,14 @@
-from selenium.webdriver.common.by import By
 from time import sleep
 from PIL import Image
+from dotenv import load_dotenv
 import io
+import os
 
 from anticaptchaofficial.imagecaptcha import *
 from anticaptchaofficial.recaptchav2proxyless import *
 from anticaptchaofficial.hcaptchaproxyless import *
-import os
+
 import pyautogui as py
-from dotenv import load_dotenv
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
