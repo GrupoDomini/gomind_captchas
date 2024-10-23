@@ -14,8 +14,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-__all__ = ['wait_element', 'send_keys', 'click']
-
 load_dotenv()
 
 CAPTCHA_KEY = os.getenv("CAPTCHA_KEY")
